@@ -1,3 +1,3 @@
 # Spoti App
 
-Aplicación que consume el API de Spotify realizada en Angular.
+Aplicación que consume la API de Spotify realizada en Angular.

@@ -1,0 +1,10 @@
+<div class="mb-5 animated fadeIn">
+  <div class="row">
+    <div class="col">
+      <input class="form-control" type="text" #text (keyup)="search(text.value)" placeholder="Search artists...">
+    </div>
+  </div>
+</div>
+
+<app-loading *ngIf="loading"></app-loading>
+<app-card *ngIf="!loading" [items]="artists"></app-card>
